@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyTwo : Enemy
 {
+    // Variables Declarations
     private float moveSpeed = 5f;
     private float rotationSpeed = 200f;
     public override void Action()

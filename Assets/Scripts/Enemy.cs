@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
         Action();
         BoundaryLimiter();
     }
-
     public virtual void Action()
     {
         //Overriding Logic

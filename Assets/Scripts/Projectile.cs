@@ -7,9 +7,9 @@ public class Projectile : MonoBehaviour
     private void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * movementSpeed);
-        Boundary();
+        DestroyOutofBound();
     }
-    private void Boundary()
+    private void DestroyOutofBound()
     {
         if (transform.position.z > zRangeLimit)
         {
