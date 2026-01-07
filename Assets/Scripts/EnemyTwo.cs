@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class EnemyTwo : Enemy
 {
-    public float moveSpeed = 5f;
-    public float rotationSpeed = 200f;
+    private float moveSpeed = 5f;
+    private float rotationSpeed = 200f;
     public override void Action()
     {
         // 1. MOVE: Move forward in world space (so it doesn't spiral)

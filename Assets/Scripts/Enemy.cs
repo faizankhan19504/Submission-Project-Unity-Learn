@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float zRange = -5f;
+    private float zRange = -5f;
     private void Update()
     {
         Action();
