@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class EnemyTwo : Enemy
 {
-    // Variables Declarations
+    // Variables Declaration
     private float moveSpeed = 5f;
     private float rotationSpeed = 200f;
+
+    // We use 'override' to replace the empty Action() function in the base Enemy script
+    // with this specific movement logic.
     public override void Action()
     {
         // 1. MOVE: Move forward in world space (so it doesn't spiral)
