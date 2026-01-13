@@ -7,10 +7,10 @@ public class DetectCollision : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Debug.Log("Direct Hit on Enemy!");
+            Debug.Log("Enemy hit by a projectile!");
 
-            // Find the MainManager in the scene and call the AddScore function
-            GameObject.Find("MainManager").GetComponent<MainManager>().AddPoint(1);
+            // Call AddScore function from MainManager singleton instance
+            MainManager.Instance.AddPoint(1);
 
             Destroy(gameObject);
             Destroy(other.gameObject);

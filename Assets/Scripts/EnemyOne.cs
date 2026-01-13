@@ -6,7 +6,7 @@ public class EnemyOne : Enemy
     private float enemySpeed = 1f;
 
     // We use 'override' to replace the empty Action() function in the base Enemy script
-    // with this specific movement logic.
+    // with this specific enemy logic.
     public override void Action()
     {
         transform.Translate(Vector3.back * Time.deltaTime * enemySpeed);

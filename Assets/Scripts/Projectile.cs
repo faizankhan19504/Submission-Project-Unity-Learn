@@ -3,8 +3,8 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     // Variables Declaration
-    private float zRangeLimit = 20f;
-    private float movementSpeed = 18f;
+    private float zRangeLimit = 12f;
+    private float movementSpeed = 20f;
 
     private void Update()
     {

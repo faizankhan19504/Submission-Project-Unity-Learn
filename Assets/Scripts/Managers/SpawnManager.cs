@@ -1,9 +1,9 @@
-
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject[] EnemyPrefabs;
+    [SerializeField] private GameObject[] EnemyPrefabs;
+
     // Variables Declaration
     private float spawnRangeX = 8;
     private float spawnPosZ = 9;

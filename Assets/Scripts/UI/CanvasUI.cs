@@ -21,5 +21,6 @@ public class CanvasUI : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene(0);
+        Debug.Log("Back to MainMenu!");
     }
 }

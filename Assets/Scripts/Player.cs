@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static Player Instance;
+    // Encapsulation in action by using Singleton pattern
+    public static Player Instance { get; private set; }
     [SerializeField] private TextMeshProUGUI GameOverUI;
-    public GameObject projectilePrefab;
-    [SerializeField] private float Speed = 10.0f;
+    [SerializeField] private GameObject projectilePrefab;
+    
+    // Variables Declaration
+    private float Speed = 16.0f;
     private float xRange = 9.0f;
 
     // Singleton logic: ensures only one Player exists in the scene
@@ -24,6 +27,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        // Abstracted movement and boundary logic into separate methods
         PlayerMovement();
         BoundaryCheck();
     }
@@ -61,8 +65,10 @@ public class Player : MonoBehaviour
     // Public function called by other script to end the game
     public void TriggerManualGameOver()
     {
-        Debug.Log("Enemy reached the player!");
+        Debug.Log("Game Over!");
         Time.timeScale = 0f;
         GameOverUI.gameObject.SetActive(true);
+        MainManager.Instance.UpdateHighScoreUI();
+        DataManager.Instance.SaveHighScore();
     }
 }

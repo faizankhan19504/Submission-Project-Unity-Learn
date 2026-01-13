@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuHandler : MonoBehaviour
+public class UIHandler : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI ScoreDisplayText;
 

@@ -3,10 +3,8 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
-    // 1. The static reference, allowing global access: DataManager.Instance
+    // Encapsulation in action by using Singleton pattern
     public static DataManager Instance { get; private set; }
-
-    // 2. The data we want to save between scenes
     public SaveData highscoreData;
 
     // This method runs before Start()
