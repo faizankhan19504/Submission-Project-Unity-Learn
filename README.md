@@ -91,6 +91,20 @@ Assets
 +  Move Player : left and Right Arrow Keys
 +  Shoot Projectiles : SpaceBar
 
+### 📥 **Installation & Setup**
++ 1. **Clone or Download this repository:**
+   ```bash
+
+    https://github.com/faizankhan19504/Submission-Project-Unity-Learn.git
+     
+2. **Open the project in Unity Hub (Recommended: Unity 6.0.62f1 LTS).**
+
+3. **Open the MainMenu:**
+   
+      +    Assets/Scenes/MainMenu
+
+4. **Press Play to start the game.**
+
 
 ### 🧠 **Learning Objectives**
 + This project covers:
