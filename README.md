@@ -2,6 +2,8 @@
 + A Simple Prototype game, built in **Unity** using **C#**.
 + This project was developed in Junior Programmer Pathway Course from Unity Learn.
 
+<img width="1014" height="562" alt="Snap1 0 1" src="https://github.com/user-attachments/assets/1f4bf810-2a0a-4a8e-8e65-5b7c0ea09148" />
+
 ### 🚀 **Features**
 
 - 👨🍳 **Single-player submission project gameplay** – Move Player Left to right and Destroy Enemies.
@@ -10,13 +12,14 @@
 - 🎨 **Clean UI/UX design** – Score counter, Updates Highscore/Bestscore when beaten.
 - 🎮 **Keyboard controls** for easy gameplay.
 
+<img width="1022" height="563" alt="Snap1 0 2" src="https://github.com/user-attachments/assets/93368ccc-50f2-4d68-8344-88a69555fc3d" />
 
   ### 🛠️ **Tech Stack**
 
 - **Engine:** Unity (Recommended version: **Unity 6.0.62f1 LTS**)  
 - **Language:** C#  
 - **Assets:** Primitives Shapes  
-- **IDE:** Visual Studio / Rider
+- **IDE:** Visual Studio / Rider / Visual Studio Code
 
 ### 📂 **Project Structure**
 
@@ -119,11 +122,3 @@ Assets
 ### 🙌 **Acknowledgements**
 + Developed in Junior Programmer Pathway Course from Unity Learn.
 + Primitives Shapes Used in this Project.
-
- 
-    
-
-
-    
- 
-
